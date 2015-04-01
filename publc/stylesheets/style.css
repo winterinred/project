@@ -1,0 +1,65 @@
+.logintag {
+width:140px;
+display: inline-block;
+text-align: right;
+font-family: 'Montserrat', sans-serif;
+font-size:13px;
+}
+
+.logininput {
+  width:140px;
+  font-size:13px;
+}
+
+.login {
+  background-color:lightgreen;
+  border:2px solid grey;
+  border-radius:10px 10px 0 0;
+  width:370px;
+  padding-bottom:25px;
+  float:right;
+}
+
+.signup {
+  background-color:lightgreen;
+  border:2px solid grey;
+  border-radius:10px 10px 0 0;
+  width:370px;
+  padding-bottom:25px;
+}
+
+button {
+  font-size:12px;
+  border-radius:5px;
+  background-color:white;
+  
+}
+
+button:hover {
+  background-color:lightblue;
+}
+
+.remember {
+  margin-left:42px;
+}
+
+
+.login h2 {
+  color:pink;
+  text-align:center;
+  background-color:green;
+  margin-top:-1px;
+  border-radius:10px 10px 0 0;
+  font-size:2em;
+  font-family:"Lobster", cursive;
+}
+
+.signup h2 {
+  color:purple;
+  text-align:center;
+  background-color:pink;
+  margin-top:-1px;
+  border-radius:10px 10px 0 0;
+  font-size:2em;
+  font-family:"Lobster", cursive;
+}

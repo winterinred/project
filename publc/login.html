@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jay's Project</title>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  </head>
+  <body>
+    <div class="login">
+      <h2>Log In</h2>
+      <form action="/login" method="POST">
+        <label class="logintag">Email:</label>
+        <input class="logininput" type="text" name="email" placeholder="name@email.ca"><br><br>
+        <label class="logintag">Password:</label>
+        <input class="logininput" type="password" name="lastname" placeholder="password"><br><!--added 2 blank labels below for spacing-->
+        <label class="logintag"></label><br>
+        <label class="logintag"></label>
+        <button type="submit">Sign In</button><br><br>
+        <input type="radio" class="remember" name="remember" value="rememberme">Remember Me
+        <input type="radio" class="remember" name="remember" value="neverremember">Never Remember
+      </form>
+    </div>
+    <div class="signup">  
+    <h2>Sign Up!</h2>
+      <form action="/signup" method="POST">
+        <label class="logintag">First Name:</label>
+        <input class="logininput" name="firstname" type="text" placeholder="John">
+        <br><br>
+        <label class="logintag">Last Name:</label>
+        <input class="logininput" name="lastname" type="text" placeholder="Smith">
+        <br><br>
+        <label class="logintag">Email:</label>
+        <input class="logininput" name="email" type="text" placeholder="name@email.ca">
+        <br><br>
+        <label class="logintag">Password:</label>
+        <input class="logininput" name="password" type="password" placeholder="password">
+        <br>
+        <!--added 2 blank labels below for spacing-->
+        <label class="logintag"></label><br>
+        <label class="logintag"></label>
+        <button type="submit">Join</button>
+      </form>
+    </div>
+  </body>    
+</html>  
